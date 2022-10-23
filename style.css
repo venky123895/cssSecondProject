@@ -1,0 +1,121 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.main{
+    width: 700px;
+    height: 1000px;
+    background-color: rgb(221,184,135);
+}
+.header{
+    text-align: center;
+}
+.year{
+    text-align: center;
+}
+.line{
+    color: red  ;
+}
+.name{
+    text-align: center;
+}
+.coffeeImage{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.content{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.price1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2rem;
+}
+.price2{
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+    /* top: 0; */
+}
+.price3{
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    font-size: 1.2rem;
+}
+.price4{
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    font-size: 1.2rem;
+}
+.price5{
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    font-size: 1.2rem;
+}
+.name2{
+    text-align: center  ;
+    font-size: 1.2rem;
+}
+.cake{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#cake{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.list{
+    position: relative;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.a1{
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+}
+.b1{
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+}
+.c1{
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+}
+.d1{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 1.2rem;
+}
+.end{
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+.line2{
+    color: blue;
+}
